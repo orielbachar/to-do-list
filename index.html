@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <title>To Do List</title>
 </head>
 <body>
-  <h3> To Do List</h3>
+  <h3 style="text-align: center"> To Do List</h3>
   <div>
-    <input type="text" />
-    <button onclick="func1"></button>
+
+    <input id="idtask" type="text" />
+    <button id="doit" onclick="addNew()">Do It!</button>
+    <table id="mytable"> </table>
+
   </div>
 
-
-  <script src="script.js"></script>
+<div id="stam"></div>
+  <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
